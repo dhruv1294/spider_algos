@@ -1,0 +1,23 @@
+1> MATH PROBLEM:
+- In this question, i  have used sieve function of Eratosthenes in which we first mark all the numbers from 2 to n as prime and then mark 
+the composites efficiently by checking the multiples of initial primes, so the numbers which are left unmarked remain prime.
+-Then we can find the number of factors from the concept of P&C where we divide n by exponents of prime and take the integer quotient and add
+them. We do this for all prime numbers less than n and then their sum along with 1 addition is multiplied to get the no. of factors.
+
+2> LOCKDOWN PROBLEM:
+- This question has the concept of subtraction take-away game.
+- With every K , a pattern of winners is obtained. For k=3, we can get 0-S,1-C,2-c,3-C,4-S,5-C,6-C,7-C,8-S.....  we can see that SCCC repeats 
+every time. So we can get the winner as Surya if n%4==0 and else Chandra. 
+- Increasing the values of K , The pattern observed is that for k other than multiples of 3 everytime 4 values keep repeating and for multiples
+of 3 everytime K+1 values are repeating.
+-So applyinfg proper if conditions we can get the solution.
+
+3>POLYNOMIAL ROOTS:
+- in this question i have simply taken the coefficients and then looped from -1000000 to 1000000 in the equation with manually finding powers 
+by multiplying with number itself in for loop.
+
+4> NP's Pizza
+- In this question, I have stored the sum each time after adding one by one in a vector.
+-Then going through the queries, applied a inbuilt STL lower_bound function on the sum vector finding the queries[i] and print the index returned +1.
+
+
